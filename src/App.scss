@@ -1,0 +1,206 @@
+.App {
+  position: relative;
+}
+
+.theater {
+  display: block;
+  justify-content: center;
+  margin: 0 30%;
+  text-align: center;
+
+  padding: 20px 60px;
+  border: 2px solid black;
+}
+.inputSection{
+  position: absolute;
+  top: 0;
+}
+
+.auditoriumSection {
+
+
+    margin-top: 60px;
+    text-align: center;
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    margin: 3px 0;
+    li {
+      margin-left:3px;
+      width: 30px;
+      height: 30px;
+    
+    }
+  }
+}
+.balconyMidSection{
+  h3{
+    text-align: center;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    margin: 3px 0;
+    li {
+      margin-left:3px;
+      width: 30px;
+      height: 30px;
+    
+    }
+  }
+}
+
+.balconyLeftSection{
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  transform: rotate(20deg);
+  ul {
+    display: flex;
+    padding: 0;
+    flex-direction: row-reverse;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    margin: 3px 0;
+    li {
+      margin-left:3px;
+      width: 30px;
+      height: 30px;
+    
+    }
+  }
+}
+.balconyRightSection{
+  text-align: center;
+  position: absolute;
+  top: 83%;
+  left: 78%;
+  transform: rotate(-20deg);
+  ul {
+    display: flex;
+    padding: 0;
+    
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    margin: 3px 0;
+    li {
+      margin-left:3px;
+      width: 30px;
+      height: 30px;
+      
+    }
+  }
+}
+
+.boxLeftSection2{
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  transform: rotate(-65deg);
+  ul {
+    display: flex;
+    padding: 0;
+    flex-direction: row-reverse;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    margin: 3px 0;
+    li {
+      margin-left:3px;
+      width: 30px;
+      height: 30px;
+    
+    }
+  }
+}
+.boxLeftSection1{
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 22%;
+  transform: rotate(-65deg);
+  ul {
+    display: flex;
+    padding: 0;
+    flex-direction: row-reverse;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    margin: 3px 0;
+    li {
+      margin-left:3px;
+      width: 30px;
+      height: 30px;
+    
+    }
+  }
+}
+.boxRightSection1{
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  transform: rotate(65deg);
+  ul {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    margin: 3px 0;
+    li {
+      margin-left:3px;
+      width: 30px;
+      height: 30px;
+    
+    }
+  }
+}
+.boxRightSection2{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: rotate(65deg);
+  ul {
+    display: flex;
+   padding: 0;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    margin: 3px 0;
+    li {
+      margin-left:3px;
+      width: 30px;
+      height: 30px;
+    
+    }
+  }
+}
+
+
+
+.price5000{
+  background: #efa5a6;
+}
+.price4000{
+  background: #efdba6;
+}
+.price3000{
+  background: #a5d9ef;
+  
+}
+.price2000{
+  background: #afefa5;
+}
+.reservedChair{
+  background: gray;
+}
