@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 
-const Chair = ({ chair }) => {
+const Chair = ({ chair, index, lineIndex }) => {
   const { name, reserved, price, id } = chair;
-
-
-
 
   const setColor = () => {
     let color;
@@ -21,23 +18,13 @@ const Chair = ({ chair }) => {
       case 2000:
         color = "price2000";
         break;
-      }
-      switch (reserved) {
-        case true:
-          color = "reservedChair";
-          break;
-      }     
+      default: color = "";
+        break;
+    };
     return color;
   };
-  
-  
 
-
-  
-
-
-
-  return <li className={`chair ${setColor()}`}>{id}</li>;
+  return <li style={{ backgroundColor: reserved ? 'gray' : '' }} className={`chair ${setColor()}`}>{index + 1}</li>;
 };
 
 export default Chair;
